@@ -11,6 +11,8 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
+    "style-component": "^0.0.1",
+    "styled-components": "^6.1.19",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
