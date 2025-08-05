@@ -1,21 +1,26 @@
 
-import"./header.css"; 
+import { InputStyle, InputWrapper } from "./components.styled";
+// import"./header.css"; 
+import './header.modeule.css';
 
 const Header = () => {
   return (
-    <header>
+    <header  className="header">
       <nav>
-        <ul>
-          <li>
+       <InputWrapper>
+        <ul className="styled-list">
+          <li className="{styled['list-item']}">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="{styled['list-item']}">
             <a href="#">About</a>
           </li>
-          <li>
+          <li className="{styled['list-item']}">
             <a href="#">Contact</a>
           </li>
         </ul>
+        <InputStyle type="text" placeholder="Search..." />
+       </InputWrapper>
       </nav>
     </header>
   );

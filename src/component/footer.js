@@ -1,8 +1,10 @@
 import './footer.css';
+import { ButtonStyle } from "./components.styled";
 const Footer = () => {
   return (
     <footer>
       <p>&copy; 2023 My Company</p>
+      <ButtonStyle>contact us</ButtonStyle>
     </footer>
   );
 }
