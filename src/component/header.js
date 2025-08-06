@@ -19,7 +19,7 @@ const Header = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
-        <InputStyle type="text" placeholder="Search..." />
+        <InputStyle type="text" placeholder="🔍Search..." />
        </InputWrapper>
       </nav>
     </header>
