@@ -4,6 +4,8 @@ import Button from "./component/button";
 import Footer from "./component/footer";
 import InputField from "./component/inputField";
 import Card from "./component/card";
+import Buttons from "./component/buttons";
+import Heading from "./component/heading";
 function App() {
   return (
     <>
@@ -19,7 +21,7 @@ function App() {
         name="password"
       />
       <InputField type="text" placeholder="enter your email" name="email" /> */}
-      <Card
+      {/* <Card
         title="Card Title 1"
         content="This is a reusable card component."
         image="../image/card-image.jpg"
@@ -37,7 +39,14 @@ function App() {
         content="This is a third reusable card component."
         image="../image/card-king.jpg"
         button="Read More"
-      />
+      /> */}
+      <Heading type="h1" title="Welcome to My App" />
+      <Heading type="h2" title="This is a subheading" />
+      <Heading type="h3" title="This is a smaller heading" />
+      <Heading type="h4" title="This is an even smaller heading" />
+      <Heading type="h5" title="This is a fifth-level heading" />
+      <Buttons />
+      <Buttons type="secondary" />
       <Button />
       <Footer />
     </>
