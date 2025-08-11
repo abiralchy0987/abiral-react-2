@@ -6,11 +6,19 @@ import InputField from "./component/inputField";
 import Card from "./component/card";
 import Buttons from "./component/buttons";
 import Heading from "./component/heading";
+import React from "react";
+import "./component/assignment1/pricing.css";
+import Title from "./component/assignment1/Title";
+import Subtitle from "./component/assignment1/Subtitle";
+import Price from "./component/assignment1/Price";
+
 function App() {
   return (
     <>
-      <Header />
-      {/* <InputField
+    <Price/>
+      
+      {/* <Header />
+      <InputField
         type="text"
         placeholder="enter your  username "
         name="username"
@@ -27,7 +35,6 @@ function App() {
         image="../image/card-image.jpg"
         button="Click Me"
       />
-      .
       <Card
         title="Card Title 2"
         content="This is another reusable card component."
@@ -40,7 +47,7 @@ function App() {
         image="../image/card-king.jpg"
         button="Read More"
       /> */}
-      <Heading type="h1" title="Welcome to My App" />
+      {/* <Heading type="h1" title="Welcome to My App" />
       <Heading type="h2" title="This is a subheading" />
       <Heading type="h3" title="This is a smaller heading" />
       <Heading type="h4" title="This is an even smaller heading" />
@@ -48,7 +55,7 @@ function App() {
       <Buttons />
       <Buttons type="secondary" />
       <Button />
-      <Footer />
+      <Footer /> */ }
     </>
   );
 }

@@ -1,0 +1,142 @@
+.pricing {
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+}
+
+.pricing h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #2d2d6a;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.pricing p {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 36px;
+}
+
+.price-carding {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px 28px;
+  width: 270px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #eee;
+}
+
+.plan-title, .plan-tittle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d2d6a;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2d2d6a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.plan-price span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.plan-features li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  padding-left: 0;
+  position: relative;
+}
+
+.plan-btn {
+  background: #2d2d6a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.plan-btn:hover {
+  background: #1a1a4d;
+}
+
+/* Basic button style */
+.basic-btn {
+  background: #2d2d6a;
+  color: #fff;
+}
+
+/* Pro plan style */
+.pricing-card.pro {
+  background: #ff7f3f;
+  color: #fff;
+  border: none;
+}
+
+.pricing-card.pro .plan-tittle,
+.pricing-card.pro .plan-price {
+  color: #fff;
+}
+
+.pricing-card.pro .plan-btn {
+  background: #fff;
+  color: #ff7f3f;
+}
+
+.pricing-card.pro .plan-btn:hover {
+  background: #ffe5d0;
+}
+
+/* Enterprise plan style */
+.pricing-card.enterprise {
+  background: #2d2d6a;
+  color: #fff;
+  border: none;
+}
+
+.pricing-card.enterprise .plan-tittle,
+.pricing-card.enterprise .plan-price {
+  color: #fff;
+}
+
+.pricing-card.enterprise .plan-btn {
+  background: #fff;
+  color: #2d2d6a;
+}
+
+.pricing-card.enterprise .plan-btn:hover {
+  background:#e0e0ff;
+}
