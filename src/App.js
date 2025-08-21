@@ -1,61 +1,53 @@
-import "./App.css";
-import Header from "./component/header";
-import Button from "./component/button";
-import Footer from "./component/footer";
-import InputField from "./component/inputField";
-import Card from "./component/card";
-import Buttons from "./component/buttons";
-import Heading from "./component/heading";
-import React from "react";
-import "./component/assignment1/pricing.css";
-import Title from "./component/assignment1/Title";
-import Subtitle from "./component/assignment1/Subtitle";
-import Price from "./component/assignment1/Price";
-import Counter from "./component/counterounter";
+import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import StyledComponent from './components/styledComponent';
+import InputField from './components/inputField';
+import Card from './components/card';
+import Heading from './components/heading';
+import Button from './components/button';
+import Counter from './components/counter';
+import State from './components/state';
+import ExternalCall from './components/externalCall';
+import ExternalCall2 from './components/externalCall2';
+
+
 function App() {
   return (
     <>
-    {/* <Price/> */}
-      
-      <Header />
-      {/* {/* <InputField
+    <Header />
+      <InputField
         type="text"
-        placeholder="enter your  username "
+        placeholder="Enter your username"
         name="username"
+        label="Username"
       />
       <InputField
         type="password"
-        placeholder="enter your password"
+        placeholder="Enter your Password"
         name="password"
+        label="Password"
       />
-      <InputField type="text" placeholder="enter your email" name="email" /> */} 
-      {/* <Card
-        title="Card Title 1"
-        content="This is a reusable card component."
-        image="../image/card-image.jpg"
-        button="Click Me"
-      />
-      <Card
-        title="Card Title 2"
-        content="This is another reusable card component."
-        image="../image/card-image2.jpg"
-        button="Learn More"
-      />
-      <Card
-        title="Card Title 3"
-        content="This is a third reusable card component."
-        image="../image/card-king.jpg"
-        button="Read More"
-      /> */}
-       {/* <Heading type="h1" title="Welcome to My App" />
-      <Heading type="h2" title="This is a subheading" />
-      <Heading type="h3" title="This is a smaller heading" />
-      <Heading type="h4" title="This is an even smaller heading" />
-      <Heading type="h5" title="This is a fifth-level heading" /> */}
-      <Buttons />
-      <Buttons type="secondary" />
-      <Button /> 
-      <Footer /> 
+      <InputField
+        type="email"
+        placeholder="Enter your email"
+        name="email"
+        label="Email"
+      /> 
+      <Card />
+      <Heading type="h1" title="This is heading one" /> 
+       <Heading type="h2" title="This is heading two" /> 
+      <Heading type="h3" title="This is heading three" /> 
+       <Heading type="h4" title="This is heading four" /> 
+       <Heading type="h5" title="This is heading five" /> 
+       <Heading type="h6" title="This is heading six" />
+       <Button /> 
+       <Button type="secondary" />
+      <Counter /> 
+      <State />
+      <ExternalCall />
+      <ExternalCall2 />
+      <Footer />
     </>
   );
 }

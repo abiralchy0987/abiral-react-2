@@ -1,0 +1,22 @@
+.resuseable-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.input-label{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="radio"]{
+    height: 18px;
+    width: 30px;
+}

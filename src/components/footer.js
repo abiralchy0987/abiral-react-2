@@ -1,5 +1,6 @@
-import './footer.css';
+
 import { ButtonStyle } from "./components.styled";
+import './footer.css';
 const Footer = () => {
   return (
     <footer>
